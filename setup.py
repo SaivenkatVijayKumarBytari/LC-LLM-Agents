@@ -2,9 +2,9 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAI
 from langchain_ollama import ChatOllama
 
 import os
-import dotenv
+#import dotenv
 
-dotenv.load_dotenv()
+#dotenv.load_dotenv()
 
 def test_chat_google_generative_ai():
     "Test the ChatGoogleGenerativeAI class."
